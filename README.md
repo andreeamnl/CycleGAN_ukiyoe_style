@@ -49,15 +49,12 @@ The pretrained model was downloaded from the official Berkeley repository:
 
 ```bash
 mkdir -p checkpoints/style_ukiyoe_pretrained
-# Place the downloaded style_ukiyoe.pth file as:
-# checkpoints/style_ukiyoe_pretrained/latest_net_G.pth
 ```
 
 ### 5. Prepare test images
 
 ```bash
 mkdir -p datasets/ukiyoe_test/testA
-# Place your test images in datasets/ukiyoe_test/testA/
 ```
 
 > **Note:** iPhone photos in HEIC format disguised as `.jpg` will cause a `PIL.UnidentifiedImageError`. Convert them first using the built-in Mac `sips` tool:
